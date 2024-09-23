@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Czt-pg-FWu">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--DigitalNFT-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="tasarimOdevii" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Explore Collection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dN8-NQ-QhU">
+                                <rect key="frame" x="13" y="193" width="214" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s1Y-Nq-0wf">
+                                <rect key="frame" x="47" y="319" width="114" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="🔥Trending"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHM-5d-Xnr">
+                                <rect key="frame" x="273" y="319" width="76" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="😍Top"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GUE-fM-5d5">
+                                <rect key="frame" x="183" y="319" width="70" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="🎨Art"/>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="NFT &amp; ART" translatesAutoresizingMaskIntoConstraints="NO" id="pfR-Gz-2RI">
+                                <rect key="frame" x="-143" y="392" width="211" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="nft" translatesAutoresizingMaskIntoConstraints="NO" id="RgD-yD-fLM">
+                                <rect key="frame" x="94" y="391" width="205" height="270"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Nft," translatesAutoresizingMaskIntoConstraints="NO" id="XkJ-G2-wWd">
+                                <rect key="frame" x="329" y="403" width="199" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <searchBar contentMode="redraw" fixedFrame="YES" placeholder="Search items, collections" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qgH-z9-Im3">
+                                <rect key="frame" x="48" y="247" width="300" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <color key="barTintColor" systemColor="opaqueSeparatorColor"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QAU-Sh-4x7">
+                                <rect key="frame" x="142" y="645" width="108" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Place a Bid"/>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" red="0.1803921568627451" green="0.1764705882352941" blue="0.24313725490196078" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="DigitalNFT" id="JmM-tl-ixU">
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="rectangle.grid.2x2" catalog="system" id="gsb-lg-6jN"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1706" y="-320"/>
+        </scene>
+        <!--Favorite-->
+        <scene sceneID="gvd-ID-IaQ">
+            <objects>
+                <viewController id="KZ3-hf-Cuy" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hWa-yw-0gv">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="T21-pR-8BP"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="2" title="Favorite" image="heart" catalog="system" id="vGY-Q3-mxh"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5ls-jY-5LP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2424" y="-320"/>
+        </scene>
+        <!--Stats-->
+        <scene sceneID="HbX-3b-Gsu">
+            <objects>
+                <viewController id="zd1-Ev-7BT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cxf-ZH-izx">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="W15-Gu-Tzv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="1" title="Stats" image="alternatingcurrent" catalog="system" id="bQ3-FY-PqU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sxu-VM-Wc9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="937" y="363"/>
+        </scene>
+        <!--My Wallet-->
+        <scene sceneID="5di-Ql-yH2">
+            <objects>
+                <viewController id="gAD-cu-Yfa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OpK-wb-sKl">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="AOO-SZ-mZ4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" tag="3" title="My Wallet" image="wallet.pass" catalog="system" id="ieX-hz-20v"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Gp-Jo-TdA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1628" y="363"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="EMR-l8-PPS">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="Czt-pg-FWu" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Gig-ze-5eB">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="OIj-bt-89Q" kind="relationship" relationship="viewControllers" id="Oyp-vh-PJn"/>
+                        <segue destination="zd1-Ev-7BT" kind="relationship" relationship="viewControllers" id="I2I-Ar-JQg"/>
+                        <segue destination="KZ3-hf-Cuy" kind="relationship" relationship="viewControllers" id="d78-HW-7Y6"/>
+                        <segue destination="gAD-cu-Yfa" kind="relationship" relationship="viewControllers" id="NLS-ow-Re3"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qxP-B3-ACN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.832061068702288" y="3.5211267605633805"/>
+        </scene>
+        <!--Explore-->
+        <scene sceneID="ZZK-4A-5KP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="OIj-bt-89Q" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Explore" image="safari" catalog="system" id="e6B-XW-zYX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" barStyle="black" largeTitles="YES" id="OOH-93-aW6">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <color key="textShadowColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="snt-d3-kpl"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VDL-dL-Gdn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="936.64122137404581" y="-320.42253521126764"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="NFT &amp; ART" width="1024" height="1024"/>
+        <image name="Nft," width="628" height="662"/>
+        <image name="alternatingcurrent" catalog="system" width="128" height="48"/>
+        <image name="heart" catalog="system" width="128" height="107"/>
+        <image name="nft" width="930" height="1163"/>
+        <image name="rectangle.grid.2x2" catalog="system" width="128" height="97"/>
+        <image name="safari" catalog="system" width="128" height="123"/>
+        <image name="wallet.pass" catalog="system" width="115" height="128"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
